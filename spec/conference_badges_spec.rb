@@ -63,7 +63,7 @@ TEXT
 
   describe '#batch_badge_creator' do
 
-    # Question 2b
+    # Question 2
 
     it 'should return a list of badge messages' do
       expect(batch_badge_creator(attendees)).to eq(badges)
